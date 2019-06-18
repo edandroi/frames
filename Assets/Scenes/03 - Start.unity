@@ -720,5 +720,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 335379153027847270, guid: daa646266ced14d788e7356079201938,
+        type: 3}
+      propertyPath: goalAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 514a693deff3543318108d110b8ded78, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daa646266ced14d788e7356079201938, type: 3}

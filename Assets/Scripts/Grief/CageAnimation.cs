@@ -18,6 +18,7 @@ public class CageAnimation : MonoBehaviour
     {
         if (Services.GameManager.goalAchieved)
         {
+            m_SpriteRenderer.maskInteraction = SpriteMaskInteraction.None;
             m_Animator.SetTrigger("DoSwing");
             m_SpriteRenderer.sprite = cageOpen;
         }      

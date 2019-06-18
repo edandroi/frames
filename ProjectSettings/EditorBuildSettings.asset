@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nostalgia.unity
     guid: de08a4e67d59048a6a9fb45793d13e96
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 1952ca2c888ef43198f33b2def9e1fbe
   m_configObjects: {}

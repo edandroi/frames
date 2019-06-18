@@ -111,12 +111,11 @@ public class Goal : MonoBehaviour
     private bool goalAchieved;
     void CheckGoal()
     {
-        if (overlapping && frameSize)// Check if the frame size and Collision works
+        if (overlapping && frameSize) // Check if the frame size and Collision works
         {
             goalAchieved = true;
-//            Debug.Log("requirements fulfilled");
         }
-        
+
         if (Input.GetMouseButtonDown(0) && goalAchieved)
         {
             goalAchieved = false;
